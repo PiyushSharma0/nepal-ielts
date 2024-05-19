@@ -4,10 +4,10 @@ const Header = () => {
   return (
     <header className="w-full bg-[#E6F0FF] px-4 flex items-center justify-evenly">
       <div className="flex items-center space-x-4">
-        <img src="OIN.png" alt="logo" className="w-32" />
-        <img src="OPN.png" alt="logo" className="w-48" />
+        <img src="OIN.png" alt="logo" className="w-32 m-0 p-0" />
+        <img src="OPN.png" alt="logo" className="w-48 m-0 p-0" />
       </div>
-      <nav className="flex space-x-8 text-gray-600">
+      <nav className="flex space-x-8 text-gray-600 text-lg">
         <Link href="#home" className="hover:text-black">
           Home
         </Link>
