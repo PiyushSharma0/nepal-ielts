@@ -1,5 +1,7 @@
 import Header from "@/components/Header";
+import About from "@/components/About";
 import Stats from "@/components/Stats";
+import Message from "@/components/Message";
 import Footer from "@/components/Footer";
 
 import React from "react";
@@ -13,9 +15,10 @@ export default function index() {
         {/* <Hero /> */}
       </div>
 
+      <About />
       <Stats />
 
-      {/* <About /> */}
+      <Message />
       {/* <Experience /> */}
       <div>{/* <Contact /> */}</div>
 
