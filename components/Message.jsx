@@ -27,7 +27,7 @@ const Message = () => {
             className="rounded-lg"
           />
           <div className="absolute top-1/2 left-0 transform -translate-y-1/2 -translate-x-1/2">
-            <div className="w-14 h-14 bg-white border-4 border-[#E6F0FF] rounded-full flex items-center justify-center">
+            <div className="w-14 h-14 bg-white border-8 border-[#E6F0FF] rounded-full flex items-center justify-center">
               <FaPlay className="text-[#1273EB] w-4 h-4" />
             </div>
           </div>

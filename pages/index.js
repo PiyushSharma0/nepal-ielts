@@ -5,6 +5,7 @@ import Message from "@/components/Message";
 import Footer from "@/components/Footer";
 
 import React from "react";
+import SuccessStories from "@/components/SuccessStories";
 
 export default function index() {
   return (
@@ -17,7 +18,7 @@ export default function index() {
 
       <About />
       <Stats />
-
+      <SuccessStories />
       <Message />
       {/* <Experience /> */}
       <div>{/* <Contact /> */}</div>

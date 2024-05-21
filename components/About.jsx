@@ -16,26 +16,26 @@ const About = () => {
           />
         </div>
         <div className="flex-1 md:ml-8 mt-6 md:mt-0 text-center md:text-left">
-          <h2 className="text-sm text-blue-600 font-semibold mb-2">ONLINE CLASS NEPAL</h2>
+          <h2 className="text-sm text-[#1273EB] font-semibold mb-2">ONLINE CLASS NEPAL</h2>
           <h1 className="text-2xl font-bold text-gray-900 mb-4">Your Gateway to Success in IELTS and PTE!</h1>
           <p className="text-gray-700 mb-4">
             Our platform is specifically designed for busy job holders and individuals struggling to allocate time for physical classes.
           </p>
           <ul className="list-none mb-6 font-semibold">
             <li className="flex items-center mb-2">
-              <span className="text-blue-600 text-lg mr-2"><FaCheckCircle className='text-[#1273EB]' /></span>
+              <span className="text-lg mr-2"><FaCheckCircle className='text-[#1273EB]' /></span>
               <span className="text-gray-700">EXCELLENT RESULT</span>
             </li>
             <li className="flex items-center mb-2">
-              <span className="text-blue-600 text-lg mr-2"><FaCheckCircle className='text-[#1273EB]' /></span>
+              <span className="text-lg mr-2"><FaCheckCircle className='text-[#1273EB]' /></span>
               <span className="text-gray-700">UNLIMITED MOCK TESTS</span>
             </li>
             <li className="flex items-center mb-2">
-              <span className="text-blue-600 text-lg mr-2"><FaCheckCircle className='text-[#1273EB]' /></span>
+              <span className="text-lg mr-2"><FaCheckCircle className='text-[#1273EB]' /></span>
               <span className="text-gray-700">EARLY MORNING AND LATE EVENING CLASSES</span>
             </li>
             <li className="flex items-center mb-2">
-              <span className="text-blue-600 text-lg mr-2"><FaCheckCircle className='text-[#1273EB]' /></span>
+              <span className="text-lg mr-2"><FaCheckCircle className='text-[#1273EB]' /></span>
               <span className="text-gray-700">LIFETIME RESOURCES</span>
             </li>
           </ul>
