@@ -64,7 +64,7 @@ const SuccessStories = () => {
                 />
                 <div className="p-4">
                   <h3 className="text-center font-semibold text-lg">{story.name}</h3>
-                  <p className="text-center text-blue-600 text-2xl font-bold">{story.score}</p>
+                  <p className="text-center text-[#1273EB] text-2xl font-bold">{story.score}</p>
                 </div>
               </div>
             </div>
