@@ -6,6 +6,8 @@ import Footer from "@/components/Footer";
 
 import React from "react";
 import SuccessStories from "@/components/SuccessStories";
+import Enroll from "@/components/Enroll";
+import Feedback from "@/components/Feedback";
 
 export default function index() {
   return (
@@ -20,15 +22,8 @@ export default function index() {
       <Stats />
       <SuccessStories />
       <Message />
-      {/* <Experience /> */}
-      <div>{/* <Contact /> */}</div>
-
-      {/* <Tech /> */}
-      <div id="team">{/* <Works /> */}</div>
-      {/* <Feedbacks /> */}
-      {/* <div className='relative z-0'> */}
-      {/* <StarsCanvas /> */}
-      {/* </div> */}
+      <Enroll />
+      <Feedback />
       <Footer />
     </div>
   );
