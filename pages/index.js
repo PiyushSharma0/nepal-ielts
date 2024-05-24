@@ -8,6 +8,7 @@ import React from "react";
 import SuccessStories from "@/components/SuccessStories";
 import Enroll from "@/components/Enroll";
 import Feedback from "@/components/Feedback";
+import Testimonials from "@/components/Testimonials";
 
 export default function index() {
   return (
@@ -23,6 +24,7 @@ export default function index() {
       <SuccessStories />
       <Message />
       <Enroll />
+      <Testimonials />
       <Feedback />
       <Footer />
     </div>

@@ -82,33 +82,33 @@ const Feedback = () => {
             </svg>
             <p className="text-md mb-4 text-black">onlineieltsnepal</p>
           </div>
-          <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-4 mt-2">
+          <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-6 mt-2">
             <div className="flex justify-center">
               <img
-                src="/path-to-your-image1.jpg"
+                src="/img1.png"
                 alt="Update 1"
-                className="w-full max-w-xs shadow-lg rounded-lg"
+                className="w-full max-w-xs shadow-lg rounded-lg transition-transform duration-200 ease-in transform hover:scale-110"
               />
             </div>
             <div className="flex justify-center">
               <img
-                src="/path-to-your-image2.jpg"
+                src="/img2.png"
                 alt="Update 2"
-                className="w-full max-w-xs shadow-lg rounded-lg"
+                className="w-full max-w-xs shadow-lg rounded-lg transition-transform duration-200 ease-in transform hover:scale-110"
               />
             </div>
             <div className="flex justify-center">
               <img
-                src="/path-to-your-image3.jpg"
+                src="/img3.png"
                 alt="Update 3"
-                className="w-full max-w-xs shadow-lg rounded-lg"
+                className="w-full max-w-xs shadow-lg rounded-lg transition-transform duration-200 ease-in transform hover:scale-110"
               />
             </div>
             <div className="flex justify-center">
               <img
-                src="/path-to-your-image4.jpg"
+                src="/img4.png"
                 alt="Update 4"
-                className="w-full max-w-xs shadow-lg rounded-lg"
+                className="w-full max-w-xs shadow-lg rounded-lg transition-transform duration-200 ease-in transform hover:scale-110"
               />
             </div>
           </div>
