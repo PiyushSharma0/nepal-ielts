@@ -67,17 +67,17 @@ const Testimonials = () => {
   return (
     <section className="bg-gray-100 py-12">
       <div className="container mx-auto px-4">
-        <h2 className="text-3xl font-semibold text-center mb-8">
-          TESTIMONIALS
+        <h2 className="text-3xl font-semibold text-center mb-8" style={{color: '#525252'}}>
+          Testimonials
         </h2>
         <Slider {...settings}>
           {testimonials.map((testimonial, index) => (
             <div key={index} className="text-center px-24">
-              <div className="relative mb-4 text-xl md:text-2xl">
+              <div className="relative mb-4 text-xl md:text-2xl" style={{color: '#101827'}}>
                 <span className="absolute left-0 -top-2 text-blue-500 text-8xl">
                   ❝
                 </span>
-                <p className="inline-block mx-10">{testimonial.text}</p>
+                <p className="inline-block mx-20">{testimonial.text}</p>
                 <span className="absolute right-0 -top-2 text-blue-500 text-8xl">
                   ❞
                 </span>
@@ -118,11 +118,11 @@ const Testimonials = () => {
               style={{
                 clipPath:
                   "polygon(50% 100%, 0% 100%, 0% 0%, 100% 0%, 100% 75%, 50% 75%)",
-                padding: "8px" // Add padding
+                padding: "8px", // Add padding
               }}
             />
             <div className="relative inset-x-0 bottom-0 text-center my-4">
-              <p className="font-semibold text-lg">{getTestimonialName(0)}</p>
+              <p className="font-semibold text-lg" style={{color: '#1E1F4B'}}>{getTestimonialName(0)}</p>
             </div>
           </div>
           <div className="relative w-24 h-24">
