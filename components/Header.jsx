@@ -20,9 +20,9 @@ const Header = () => {
         <Link href="#testimonials" className="hover:text-black">
           Testimonials
         </Link>
-        <Link href="#contact" className="hover:text-black">
-          Contact Us
-        </Link>
+        <Link href="#contact" className="bg-[#1273EB] text-white px-4 py-2 rounded-lg font-semibold hover:bg-blue-700 transition duration-300 self-center">
+  Contact Us
+</Link>
       </nav>
     </header>
   );
