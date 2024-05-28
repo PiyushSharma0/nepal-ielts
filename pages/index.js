@@ -9,6 +9,7 @@ import SuccessStories from "@/components/SuccessStories";
 import Enroll from "@/components/Enroll";
 import Feedback from "@/components/Feedback";
 import Testimonials from "@/components/Testimonials";
+import HomePage from "@/components/HomePage";
 
 export default function index() {
   return (
@@ -19,6 +20,8 @@ export default function index() {
         {/* <Hero /> */}
       </div>
 
+
+      <HomePage />
       <About />
       <Stats />
       <SuccessStories />
