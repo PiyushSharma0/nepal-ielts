@@ -9,7 +9,7 @@ const HomePage = () => {
     <section className="bg-[#E6F0FF] w-full">
       <div className="container mx-auto px-40 flex flex-col md:flex-row items-center justify-center relative">
         <div className="md:w-1/2 text-center md:text-left -mt-52">
-          <h1 className="text-4xl font-bold mb-4">
+          <h1 className="text-4xl font-bold mb-4 text-black">
             YOUR JOURNEY TO <span className="text-[#1273EB]">SUCCESS</span> STARTS HERE
           </h1>
           <p className="text-gray-700 mb-6">

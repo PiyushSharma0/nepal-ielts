@@ -60,7 +60,7 @@ const Testimonials = () => {
   };
 
   return (
-    <section className="bg-gray-100 py-12 h-[560px]">
+    <section className="bg-[#E6F0FF] py-12 h-[560px]">
       <div className="container mx-auto px-4">
         <h2 className="text-3xl font-semibold text-center mb-8 text-[#525252] ">
           Testimonials
@@ -72,7 +72,7 @@ const Testimonials = () => {
                 <span className="absolute left-0 -top-2 text-blue-500 text-8xl">
                   ❝
                 </span>
-                <p className="inline-block mx-20">{testimonial.text}</p>
+                <p className="inline-block mx-20 text-black">{testimonial.text}</p>
                 <span className="absolute right-0 -top-2 text-blue-500 text-8xl">
                   ❞
                 </span>

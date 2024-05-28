@@ -8,21 +8,21 @@ const Header = () => {
         <img src="OPN.png" alt="logo" className="w-48 m-0 p-0" />
       </div>
       <nav className="flex space-x-8 text-gray-600 text-lg font-semibold">
-        <Link href="#home" className="hover:text-black">
+        <Link href="#home">
           Home
         </Link>
-        <Link href="#about" className="hover:text-black">
+        <Link href="#about">
           About Us
         </Link>
-        <Link href="#message" className="hover:text-black">
+        <Link href="#message">
           Message From The CEO
         </Link>
-        <Link href="#testimonials" className="hover:text-black">
+        <Link href="#testimonials">
           Testimonials
         </Link>
-        <Link href="#contact" className="bg-[#1273EB] text-white px-4 py-2 rounded-lg font-semibold hover:bg-blue-700 transition duration-300 self-center">
-  Contact Us
-</Link>
+        <Link href="#contact" className="bg-[#1273EB] text-white px-4 py-2 -mt-2 rounded-lg font-semibold hover:bg-blue-700 transition duration-300 self-center">
+            Contact Us
+        </Link>
       </nav>
     </header>
   );
