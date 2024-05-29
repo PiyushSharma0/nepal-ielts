@@ -62,25 +62,25 @@ const Testimonials = () => {
   return (
     <section className="bg-[#E6F0FF] py-12 h-[560px]">
       <div className="container mx-auto px-4">
-        <h2 className="text-3xl font-semibold text-center mb-8 text-[#525252] ">
+        <h2 className="text-3xl font-semibold text-center mb-8 text-black ">
           Testimonials
         </h2>
         <Slider {...settings}>
           {testimonials.map((testimonial, index) => (
-            <div key={index} className="text-center px-24">
+            <div key={index} className="text-justify px-8 md:px-24">
               <div className="relative mb-4 text-xl md:text-2xl">
-                <span className="absolute left-0 -top-2 text-blue-500 text-8xl">
+                <span className="absolute left-0 -top-2 text-blue-500 text-4xl md:text-8xl">
                   ❝
                 </span>
-                <p className="inline-block mx-20 text-black">{testimonial.text}</p>
-                <span className="absolute right-0 -top-2 text-blue-500 text-8xl">
+                <p className="inline-block text-base md:text-3xl mx-6 md:mx-20 text-black">{testimonial.text}</p>
+                <span className="absolute right-0 -top-2 text-blue-500 text-4xl md:text-8xl">
                   ❞
                 </span>
               </div>
             </div>
           ))}
         </Slider>
-        <div className="flex justify-center items-center gap-3 mt-4 space-x-2">
+        <div className="flex justify-center items-center gap-3 md:mt-4 space-x-2">
           <div className="relative w-16 h-16">
             <Image
               src={getTestimonialImage(-2)}
@@ -108,15 +108,18 @@ const Testimonials = () => {
               className="rounded-full p-2"
             />
             <div
-              className="absolute inset-0 rounded-full border-4 border-[#1273EB]"
+              className="absolute hidden md:block inset-0 rounded-full border-4 border-[#1273EB]"
               style={{
                 clipPath:
                   "polygon(50% 100%, 0% 100%, 0% 0%, 100% 0%, 100% 60%, 50% 50%)",
                 padding: "8px",
               }}
             />
-            <div className="relative inset-x-0 bottom-0 text-center my-4">
-              <p className="font-semibold text-lg text-[#1E1F4B]">{getTestimonialName(0)}</p>
+            <div
+              className="absolute md:hidden inset-0 rounded-full left-[2px] top-[2px] w-[86px] h-[86px] border-4 border-[#1273EB]"
+            />
+            <div className="relative inset-x-0 bottom-0 text-center md:my-4">
+              <p className="font-semibold text-[13px] md:text-lg text-[#1E1F4B]">{getTestimonialName(0)}</p>
             </div>
           </div>
           <div className="relative w-24 h-24">

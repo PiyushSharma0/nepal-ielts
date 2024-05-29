@@ -16,11 +16,11 @@ const Enroll = () => {
         />
       </div>
       <div className="relative z-10 flex flex-col items-center justify-center h-full text-white bg-black bg-opacity-40">
-        <hr className="border-white w-1/12 mb-4 border-2" />
-        <h1 className="text-2xl md:text-3xl font-normal mb-2">
+        <hr className="border-white w-1/4 rounded lg:w-1/12 mb-4 border-2" />
+        <h1 className="text-2xl px-4 md:text-3xl font-normal text-center mb-2">
           Expert Online IELTS & PTE Preparation Courses
         </h1>
-        <p className="text-base md:text-lg mb-4 text-center max-w-5xl mt-4">
+        <p className="text-base px-4 md:text-lg mb-4 text-center max-w-5xl mt-4">
           Achieve your dream scores! Join our interactive online courses with
           experienced tutors, personalized feedback, and proven strategies.
           Boost your scores and achieve your language goals.
