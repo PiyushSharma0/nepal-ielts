@@ -15,7 +15,7 @@ const Header = () => {
 
   return (
     <header className="w-full bg-[#E6F0FF] px-4 flex items-center justify-between lg:justify-evenly">
-      <div className="flex items-center">
+      <div className="flex items-center -inset-32">
         <img src="OIN.png" alt="logo" className="w-20 md:w-32 m-0 p-0" />
         <img src="OPN.png" alt="logo" className="w-24 md:w-48 m-0 p-0" />
       </div>

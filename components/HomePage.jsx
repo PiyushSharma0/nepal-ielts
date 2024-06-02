@@ -7,8 +7,8 @@ import { FcGoogle } from "react-icons/fc";
 const HomePage = () => {
   return (
     <section className="bg-[#E6F0FF] w-full mt-28 md:mt-0">
-      <div className="container mx-auto px-6 md:px-40 flex flex-col md:flex-row items-center justify-center relative">
-        <div className="md:w-1/2 text-left -mt-28 md:-mt-52">
+      <div className="container mx-auto px-6 md:px-40 flex flex-col lg:flex-row items-center justify-center relative">
+        <div className="lg:w-1/2 text-left -mt-28 md:mt-0 lg:-mt-52">
           <h1 className="text-2xl md:text-4xl font-bold mb-4 text-black">
             YOUR JOURNEY TO <span className="text-[#1273EB]">SUCCESS</span>{" "}
             STARTS HERE
@@ -72,7 +72,7 @@ const HomePage = () => {
             height={400}
             className="rounded-md mb-4"
           />
-          <div className="bg-white w-[246px] h-[140px] flex rounded p-4 shadow-md absolute left-[calc(50%-380px)] top-[55%]">
+          <div className="bg-white w-[246px] h-[140px] flex rounded p-4 shadow-md absolute md:left-[calc(50%-320px)] left-[calc(50%-380px)] top-[55%]">
             <div className="w-[60%] flex flex-col items-center justify-center space-y-2">
               <div className="text-5xl font-extrabold text-[#4285F4]">4.8</div>
               <div className="relative text-2xl">

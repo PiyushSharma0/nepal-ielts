@@ -72,7 +72,7 @@ const Testimonials = () => {
                 <span className="absolute left-0 -top-2 text-blue-500 text-4xl md:text-8xl">
                   ❝
                 </span>
-                <p className="inline-block text-base md:text-3xl mx-6 md:mx-20 text-black">{testimonial.text}</p>
+                <p className="inline-block text-sm md:text-[18px] lg:text-3xl mx-6 md:mx-20 text-black">{testimonial.text}</p>
                 <span className="absolute right-0 -top-2 text-blue-500 text-4xl md:text-8xl">
                   ❞
                 </span>
@@ -80,7 +80,7 @@ const Testimonials = () => {
             </div>
           ))}
         </Slider>
-        <div className="flex justify-center items-center gap-3 md:mt-4 space-x-2">
+        <div className="flex justify-center items-center gap-3 -mt-2 lg:mt-4 space-x-2">
           <div className="relative w-16 h-16">
             <Image
               src={getTestimonialImage(-2)}
@@ -114,9 +114,6 @@ const Testimonials = () => {
                   "polygon(50% 100%, 0% 100%, 0% 0%, 100% 0%, 100% 60%, 50% 50%)",
                 padding: "8px",
               }}
-            />
-            <div
-              className="absolute md:hidden inset-0 rounded-full left-[2px] top-[2px] w-[86px] h-[86px] border-4 border-[#1273EB]"
             />
             <div className="relative inset-x-0 bottom-0 text-center md:my-4">
               <p className="font-semibold text-[13px] md:text-lg text-[#1E1F4B]">{getTestimonialName(0)}</p>

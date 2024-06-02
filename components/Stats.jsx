@@ -41,7 +41,7 @@ const Stats = () => {
           <p className="text-md md:text-xl text-black">1st Attempt Success Rate</p>
         </div>
         <div className="bg-white p-8 rounded shadow text-center">
-          <h2 className="text-3xl md:text-4xl font-semibold md:font-bold text-[#1273EB] mb-2 py-[10px] md:py-4">
+          <h2 className="text-3xl md:text-4xl font-semibold md:font-bold text-[#1273EB] mb-2 md:py-4">
             {startCounting && (
               <CountUp start={0} end={4.8} decimals={1} duration={2} />
             )}
