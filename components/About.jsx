@@ -4,6 +4,16 @@ import { FaCheckCircle } from "react-icons/fa";
 
 const About = () => {
   return (
+    <> 
+    {/* SEO For About Page */}
+    <Head>
+    <title>Online Class Nepal - Your Gateway to Success in IELTS and PTE!</title>
+    <meta name="description" content="Our platform is specifically designed for busy job holders and individuals struggling to allocate time for physical classes. We offer excellent results, unlimited mock tests, and flexible class timings." />
+    <meta name="keywords" content="Online Class, Nepal, IELTS, PTE, Success, Education, Learning, Online Learning" />
+    <meta name="viewport" content="initial-scale=1.0, width=device-width" />
+    {/* End of SEO  */}
+  </Head>
+  
     <section className="bg-white w-full">
       <div className="flex flex-col md:flex-row items-center p-8 rounded-lg max-w-6xl mx-auto">
         <div className="flex-1 md:ml-8 mt-6 md:mt-0 text-left md:hidden">
@@ -67,6 +77,7 @@ const About = () => {
         </div>
       </div>
     </section>
+    </>
   );
 };
 
