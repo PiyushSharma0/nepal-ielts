@@ -36,7 +36,7 @@ const HomePage = () => {
         </div>
         <div className="md:w-1/2 flex flex-col items-center relative md:hidden">
           <Image
-            src="/girl.png"
+            src="/girl1.png"
             alt="Student Image"
             width={300}
             height={300}
@@ -66,7 +66,7 @@ const HomePage = () => {
         </div>
         <div className="md:w-1/2 md:flex flex-col hidden items-center relative">
           <Image
-            src="/girl.png"
+            src="/girl1.png"
             alt="Student Image"
             width={400}
             height={400}
