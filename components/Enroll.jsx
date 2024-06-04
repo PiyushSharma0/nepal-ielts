@@ -5,6 +5,7 @@ import { MdKeyboardDoubleArrowRight } from "react-icons/md";
 
 const Enroll = () => {
   return (
+   
     <section className="relative w-full h-[464px]">
       <div className="absolute inset-0 z-0">
         <Image
@@ -30,6 +31,7 @@ const Enroll = () => {
         </button>
       </div>
     </section>
+    
   );
 };
 

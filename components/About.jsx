@@ -4,6 +4,8 @@ import { FaCheckCircle } from "react-icons/fa";
 
 const About = () => {
   return (
+
+  
     <section className="bg-white w-full">
       <div className="flex flex-col md:flex-row items-center p-8 rounded-lg max-w-6xl mx-auto">
         <div className="flex-1 md:ml-8 mt-6 md:mt-0 text-left md:hidden">
@@ -15,7 +17,7 @@ const About = () => {
           </h1>
         </div>
         <div className="flex-1">
-          <Image src="/pic1.jpg" alt="Student studying online" width={480} height={360} lassName="rounded-lg" />
+          <Image src="/pic1.jpeg" alt="Student studying online" width={480} height={360} lassName="rounded-lg" />
         </div>
         <div className="flex-1 md:ml-8 mt-6 md:mt-0 text-left">
           <h2 className="text-sm text-[#1273EB] font-semibold mb-2 hidden md:block md:text-lg">
@@ -67,6 +69,7 @@ const About = () => {
         </div>
       </div>
     </section>
+  
   );
 };
 
