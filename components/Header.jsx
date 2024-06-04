@@ -18,7 +18,8 @@ const Header = () => {
     <header className="w-full bg-[#E6F0FF] px-4 flex items-center justify-between lg:justify-evenly">
       <div className="flex items-center -inset-32">
         {/* <img src="OIN.png" alt="logo" className="w-20 md:w-32 m-0 p-0" /> */}
-        <Image src="OPN.png" alt="logo" className="w-24 md:w-48 m-0 p-0" />
+        <Image src="/OPN.png" alt="logo" height={96} width={96} className="w-24 md:w-48 m-0 p-0" />
+        
       </div>
       <nav className="hidden lg:flex space-x-8 text-gray-600 text-lg font-semibold">
         <Link href="#home">Home</Link>

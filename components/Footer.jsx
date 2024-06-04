@@ -15,13 +15,17 @@ const Footer = () => {
           <hr className="border-gray-400 w-full mb-4 xl:w-1/3 md:border-white" />
           <div className="flex flex-row items-center -mb-2">
             <Image
-              src="OIN.png"
+              src="/OIN.png"
               alt="logo"
+              width={96}
+              height={96}
               class="w-20 xl:w-28 object-contain xl:block"
             />
             <Image
-              src="OPN.png"
+              src="/OPN.png"
               alt="logo"
+              width={96}
+              height={96}
               class="w-24 xl:w-40 object-contain xl:block"
             />
           </div>

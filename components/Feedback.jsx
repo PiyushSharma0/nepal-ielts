@@ -89,6 +89,8 @@ const Feedback = () => {
               <Image
                 src="/img1.png"
                 alt="Update 1"
+                width={500}
+                height={500}
                 className="w-full max-w-xs shadow-lg rounded-lg transition-transform duration-200 ease-in transform hover:scale-110"
               />
             </div>
@@ -97,6 +99,8 @@ const Feedback = () => {
               <Image
                 src="/img2.png"
                 alt="Update 2"
+                width={500}
+                height={500}
                 className="w-full max-w-xs shadow-lg rounded-lg transition-transform duration-200 ease-in transform hover:scale-110"
               />
             </div>
@@ -105,6 +109,8 @@ const Feedback = () => {
               <Image
                 src="/img3.png"
                 alt="Update 3"
+                width={500}
+                height={500}
                 className="w-full max-w-xs shadow-lg rounded-lg transition-transform duration-200 ease-in transform hover:scale-110"
               />
             </div>
@@ -113,6 +119,8 @@ const Feedback = () => {
               <Image
                 src="/img4.png"
                 alt="Update 4"
+                width={500}
+                height={500}
                 className="w-full max-w-xs shadow-lg rounded-lg transition-transform duration-200 ease-in transform hover:scale-110"
               />
             </div>
