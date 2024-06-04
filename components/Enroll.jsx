@@ -5,6 +5,13 @@ import { MdKeyboardDoubleArrowRight } from "react-icons/md";
 
 const Enroll = () => {
   return (
+  <>
+    {/* SEO Data  */}
+    <Head>
+      <title>Enroll - Expert Online IELTS & PTE Preparation Courses</title>
+      <meta name="description" content="Achieve your dream scores! Join our interactive online courses with experienced tutors, personalized feedback, and proven strategies. Boost your scores and achieve your language goals." />
+      <meta name="keywords" content="IELTS, PTE, Online Course, Language Learning" />
+    </Head>
     <section className="relative w-full h-[464px]">
       <div className="absolute inset-0 z-0">
         <Image
@@ -30,6 +37,7 @@ const Enroll = () => {
         </button>
       </div>
     </section>
+  </>
   );
 };
 
