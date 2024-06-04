@@ -2,6 +2,8 @@ import { FaFacebook, FaLinkedin } from "react-icons/fa";
 import { MdEmail } from "react-icons/md";
 import { IoCall } from "react-icons/io5";
 import { SlSocialInstagram } from "react-icons/sl";
+import Image from 'next/image'
+
 
 import Link from "next/link";
 
@@ -12,12 +14,12 @@ const Footer = () => {
         <div className="flex flex-col items-center">
           <hr className="border-gray-400 w-full mb-4 xl:w-1/3 md:border-white" />
           <div className="flex flex-row items-center -mb-2">
-            <img
+            <Image
               src="OIN.png"
               alt="logo"
               class="w-20 xl:w-28 object-contain xl:block"
             />
-            <img
+            <Image
               src="OPN.png"
               alt="logo"
               class="w-24 xl:w-40 object-contain xl:block"

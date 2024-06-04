@@ -1,4 +1,6 @@
 import React from "react";
+import Image from 'next/image'
+
 
 const Feedback = () => {
   return (
@@ -84,7 +86,7 @@ const Feedback = () => {
           <div className="grid grid-cols-2 gap-6 justify-center md:grid-cols-4">
             {/* Image 1 */}
             <div className="flex justify-center">
-              <img
+              <Image
                 src="/img1.png"
                 alt="Update 1"
                 className="w-full max-w-xs shadow-lg rounded-lg transition-transform duration-200 ease-in transform hover:scale-110"
@@ -92,7 +94,7 @@ const Feedback = () => {
             </div>
             {/* Image 2 */}
             <div className="flex justify-center">
-              <img
+              <Image
                 src="/img2.png"
                 alt="Update 2"
                 className="w-full max-w-xs shadow-lg rounded-lg transition-transform duration-200 ease-in transform hover:scale-110"
@@ -100,7 +102,7 @@ const Feedback = () => {
             </div>
             {/* Image 3 */}
             <div className="flex justify-center">
-              <img
+              <Image
                 src="/img3.png"
                 alt="Update 3"
                 className="w-full max-w-xs shadow-lg rounded-lg transition-transform duration-200 ease-in transform hover:scale-110"
@@ -108,7 +110,7 @@ const Feedback = () => {
             </div>
             {/* Image 4 */}
             <div className="flex justify-center">
-              <img
+              <Image
                 src="/img4.png"
                 alt="Update 4"
                 className="w-full max-w-xs shadow-lg rounded-lg transition-transform duration-200 ease-in transform hover:scale-110"

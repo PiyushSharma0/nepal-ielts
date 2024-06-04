@@ -5,6 +5,7 @@ import { GoHome, GoInfo } from "react-icons/go";
 import { BsEnvelope } from "react-icons/bs";
 import { LuQuote } from "react-icons/lu";
 import { IoCallOutline } from "react-icons/io5";
+import Image from 'next/image'
 
 const Header = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -17,7 +18,7 @@ const Header = () => {
     <header className="w-full bg-[#E6F0FF] px-4 flex items-center justify-between lg:justify-evenly">
       <div className="flex items-center -inset-32">
         {/* <img src="OIN.png" alt="logo" className="w-20 md:w-32 m-0 p-0" /> */}
-        <img src="OPN.png" alt="logo" className="w-24 md:w-48 m-0 p-0" />
+        <Image src="OPN.png" alt="logo" className="w-24 md:w-48 m-0 p-0" />
       </div>
       <nav className="hidden lg:flex space-x-8 text-gray-600 text-lg font-semibold">
         <Link href="#home">Home</Link>
@@ -41,8 +42,8 @@ const Header = () => {
           <div className="fixed top-0 right-0 w-5/6 bg-white h-full z-50 shadow-lg">
             <div className="flex items-center justify-between p-4">
               <div className="flex items-center">
-                <img src="OIN.png" alt="logo" className="w-24 m-0 p-0" />
-                <img src="OPN.png" alt="logo" className="w-32 m-0 p-0" />
+                <Image src="OIN.png" alt="logo" className="w-24 m-0 p-0" />
+                <Image src="OPN.png" alt="logo" className="w-32 m-0 p-0" />
               </div>
               <button
                 onClick={toggleSidebar}
