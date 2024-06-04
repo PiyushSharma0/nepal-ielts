@@ -15,13 +15,7 @@ const About = () => {
           </h1>
         </div>
         <div className="flex-1">
-          <Image
-            src="/pic1.jpg"
-            alt="Student studying online"
-            width={480}
-            height={360}
-            className="rounded-lg"
-          />
+          <Image src="/pic1.jpg" alt="Student studying online" width={480} height={360} lassName="rounded-lg" />
         </div>
         <div className="flex-1 md:ml-8 mt-6 md:mt-0 text-left">
           <h2 className="text-sm text-[#1273EB] font-semibold mb-2 hidden md:block md:text-lg">
