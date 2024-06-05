@@ -17,7 +17,7 @@ const Header = () => {
   return (
     <header className="w-full bg-[#E6F0FF] px-4 flex items-center justify-between lg:justify-evenly">
       <div className="flex items-center -inset-32">
-        <Image src="/OCN Png.png" alt="logo" height={96} width={96} className="w-20 md:w-32 m-0 p-0" />
+        <Image src="/logo.png" alt="logo" height={96} width={192} className="w-32 md:w-64 m-0 p-0" />
         {/* <Image src="/OCN.png" alt="logo" height={96} width={96} className="w-24 md:w-48 m-0 p-0" /> */}
         
       </div>
@@ -43,7 +43,7 @@ const Header = () => {
           <div className="fixed top-0 right-0 w-5/6 bg-white h-full z-50 shadow-lg">
             <div className="flex items-center justify-between p-4">
               <div className="flex items-center">
-                <Image src="/OCN Png.png" alt="logo" width={90} height={90} className="w-24 m-0 p-0" />
+                <Image src="/logo.png" alt="logo" width={180} height={90} className="w-48 m-0 p-0" />
                 {/* <Image src="OPN.png" alt="logo" className="w-32 m-0 p-0" /> */}
               </div>
               <button
