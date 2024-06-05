@@ -1,9 +1,13 @@
 import React from "react";
 import Image from "next/image";
 import { FaCheckCircle } from "react-icons/fa";
+import TawkToChat from "./TawkToChat";
+
 
 const About = () => {
   return (
+    <>
+    <TawkToChat />
 
   
     <section className="bg-white w-full">
@@ -69,8 +73,11 @@ const About = () => {
         </div>
       </div>
     </section>
+    </>
   
   );
 };
+
+
 
 export default About;
