@@ -13,21 +13,30 @@ const Footer = () => {
       <div className="md:w-2/3 w-full px-4 text-center">
         <div className="flex flex-col items-center">
           <hr className="border-gray-400 w-full mb-4 xl:w-1/3 md:border-white" />
-          <div className="flex flex-row items-center -mb-2">
+          <div className="flex flex-col items-center mb-2">
             <Image
-              src="/OIN.png"
+              src="/logo.png"
               alt="logo"
-              width={96}
-              height={96}
-              class="w-20 xl:w-28 object-contain xl:block"
+              width={256}
+              height={128}
+              className="w-64 xl:w-80 object-contain block mb-2"
             />
-            <Image
-              src="/OPN.png"
-              alt="logo"
-              width={96}
-              height={96}
-              class="w-24 xl:w-40 object-contain xl:block"
-            />
+            <div className="flex flex-row items-center -mb-2">
+              <Image
+                src="/OIN.png"
+                alt="logo"
+                width={128}
+                height={128}
+                className="w-20 xl:w-28 object-contain block"
+              />
+              <Image
+                src="/OPN.png"
+                alt="logo"
+                width={128}
+                height={128}
+                className="w-24 xl:w-40 object-contain block"
+              />
+            </div>
           </div>
           <p className="text-gray-600 mb-8 text-sm lg:text-lg">
             A place where success is not just a destination but a fulfilling and
