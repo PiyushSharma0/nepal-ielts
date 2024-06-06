@@ -90,25 +90,25 @@ const Footer = () => {
           <hr className="border-gray-400 w-full mb-4 xl:w-1/3" />
           <div className="flex flex-row space-x-4 mb-8">
             <Link href="tel:+977 9802335996" target="_blank">
-              <IoCall className="lg:text-5xl sm:text-3xl text-2xl text-blue-400 hover:cursor-pointer" />
+              <IoCall className="lg:text-5xl sm:text-3xl text-2xl text-blue-600 hover:text-red-600 hover:cursor-pointer" />
             </Link>
             <Link href="mailto:info@onlineclassnepal.com.np" target="_blank">
-              <MdEmail className="lg:text-5xl sm:text-3xl text-2xl text-blue-400 hover:cursor-pointer" />
+              <MdEmail className="lg:text-5xl sm:text-3xl text-2xl text-blue-600 hover:text-red-600 hover:cursor-pointer" />
             </Link>
             <Link href="https://www.facebook.com/onlineieltsnp" target="_blank">
-              <FaFacebook className="lg:text-5xl sm:text-3xl text-2xl text-[#1877F2] hover:cursor-pointer" />
+              <FaFacebook className="lg:text-5xl sm:text-3xl text-2xl text-blue-600 hover:text-red-600 hover:cursor-pointer" />
             </Link>
             <Link
               href="https://www.instagram.com/onlineptenepal/"
               target="_blank"
             >
-              <SlSocialInstagram className="lg:text-5xl sm:text-3xl text-2xl bg-white text-[#E1306C] hover:cursor-pointer" />
+              <SlSocialInstagram className="lg:text-5xl sm:text-3xl text-2xl bg-white text-blue-600 hover:text-red-600 hover:cursor-pointer" />
             </Link>
             <Link
               href="https://www.linkedin.com/company/online-ielts-pte-nepal/?viewAsMember=true"
               target="_blank"
             >
-              <FaLinkedin className="lg:text-5xl sm:text-3xl  text-2xl bg-white text-[#0077B5] hover:cursor-pointer" />
+              <FaLinkedin className="lg:text-5xl sm:text-3xl  text-2xl bg-white text-blue-600 hover:text-red-600 hover:cursor-pointer" />
             </Link>
           </div>
           <p className="text-gray-400 text-xs md:text-sm">
