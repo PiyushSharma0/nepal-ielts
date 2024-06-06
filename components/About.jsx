@@ -65,7 +65,7 @@ const About = () => {
           <button
             className="bg-[#1273EB] w-full text-white px-4 py-2 rounded-lg font-semibold hover:bg-blue-700 transition duration-300"
             onClick={() =>
-              (window.location.href = "https://forms.gle/Stya2XmMg4Tdq1Ra7")
+              (window.location.href = "https://forms.gle/yscHLNqqaHzkpP7f6")
             }
           >
             Book FREE Demo Class
