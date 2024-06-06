@@ -20,7 +20,7 @@ const HomePage = () => {
           </p>
           <div className="md:flex flex-col md:flex-row justify-center md:justify-start space-y-4 md:space-y-0 md:space-x-4 hidden">
             <Link
-              href="/apply"
+              href=" https://forms.gle/yscHLNqqaHzkpP7f6"
               className="w-full md:w-auto bg-[#1273EB] flex items-center justify-center text-white px-6 py-3 rounded-md hover:bg-blue-600 transition"
             >
               Apply Now <MdKeyboardDoubleArrowRight className="text-2xl ml-2" />
@@ -100,7 +100,7 @@ const HomePage = () => {
           your journey to success today.
         </p>
         <Link
-          href="/apply"
+          href=" https://forms.gle/yscHLNqqaHzkpP7f6"
           className="w-full md:hidden bg-[#1273EB] flex items-center justify-center text-white px-6 py-3 rounded-md hover:bg-blue-600 transition"
         >
           Apply Now <MdKeyboardDoubleArrowRight className="text-2xl ml-2" />
