@@ -43,7 +43,7 @@ const Header = () => {
           <div className="fixed top-0 right-0 w-5/6 bg-white h-full z-50 shadow-lg">
             <div className="flex items-center justify-between p-4">
               <div className="flex items-center">
-                <Image src="/logo.png" alt="logo" width={180} height={90} className="w-48 m-0 p-0" />
+                <Image src="/logo.png" alt="logo" width={360} height={180} className="w-48 m-0 p-0" />
                 {/* <Image src="OPN.png" alt="logo" className="w-32 m-0 p-0" /> */}
               </div>
               <button
