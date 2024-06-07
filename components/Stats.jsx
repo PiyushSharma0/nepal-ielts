@@ -18,7 +18,7 @@ const Stats = () => {
           OUR IMPACTS IN NUMBERS
         </h1>
         <p className="text-lg text-gray-400 px-3">
-          Everything you need to convert, engage, and retain more users.
+        Our Results, Proven by the Numbers
         </p>
       </div>
       <div className="grid grid-cols-2 justify-center items-center lg:grid-cols-4 gap-8 mx-auto my-auto px-4 max-w-6xl">

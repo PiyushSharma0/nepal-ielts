@@ -21,7 +21,7 @@ const Footer = () => {
               height={128}
               className="w-64 xl:w-80 object-contain block mb-2"
             />
-            <div className="flex flex-row items-center -mb-2">
+            {/* <div className="flex flex-row items-center -mb-2">
               <Image
                 src="/OIN.png"
                 alt="logo"
@@ -36,7 +36,7 @@ const Footer = () => {
                 height={128}
                 className="w-24 xl:w-40 object-contain block"
               />
-            </div>
+            </div> */}
           </div>
           <p className="text-gray-600 mb-8 text-sm lg:text-lg">
             A place where success is not just a destination but a fulfilling and

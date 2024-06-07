@@ -81,7 +81,7 @@ const Feedback = () => {
                 transform="translate(-422.637 -426.196)"
               ></path>
             </svg>
-            <p className="text-md mb-4 text-black">onlineieltsnepal</p>
+            <p className="text-md mb-4 text-black">onlineieltsptenepal</p>
           </div>
           <div className="grid grid-cols-2 gap-6 justify-center md:grid-cols-4">
             {/* Image 1 */}
