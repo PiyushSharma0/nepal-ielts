@@ -69,11 +69,11 @@ const Testimonials = () => {
   {testimonials.map((testimonial, index) => (
     <div key={index} className="text-justify px-8 md:px-24">
       <div className="relative mb-4 text-xl md:text-2xl">
-        <span className="absolute left-0 -top-2 text-blue-500 text-4xl md:text-8xl">
+        <span className="absolute left-0 -top-2  text-blue-500 text-4xl md:text-8xl">
           ❝
         </span>
         <p className="inline-block text-sm md:text-[18px] lg:text-3xl mx-6 md:mx-20 text-black">{testimonial.text}</p>
-        <span className="absolute right-0 bottom-0 text-blue-500 text-4xl md:text-8xl">
+        <span className="absolute right-0 -bottom-12 text-blue-500 text-4xl md:text-8xl">
           ❞
         </span>
       </div>
@@ -81,7 +81,7 @@ const Testimonials = () => {
   ))}
 </Slider>
 
-        
+
         <div className="flex justify-center items-center gap-3 -mt-2 lg:mt-4 space-x-2">
           <div className="relative w-16 h-16">
             <Image
