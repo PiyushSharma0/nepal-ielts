@@ -29,10 +29,10 @@ const Message = () => {
             className="rounded-lg md:hidden"
           />
           <p className="text-gray-700 my-4 text-left">
-            Welcome to Online Class Nepal! I'm delighted to lead a dedicated and
+            Welcome to Online Class Nepal! I&apos;m delighted to lead a dedicated and
             expert team who are committed to your success. With our flexible
             class timings, including early morning and evening sessions, along
-            with unlimited mock tests and free recorded videos, you'll have the
+            with unlimited mock tests and free recorded videos, you&apos;ll have the
             freedom to learn at your own pace.
           </p>
           <p className="text-lg font-bold text-gray-900 text-left">Santosh Magar</p>
