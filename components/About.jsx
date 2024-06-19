@@ -2,6 +2,7 @@ import React from "react";
 import Image from "next/image";
 import { FaCheckCircle } from "react-icons/fa";
 import TawkToChat from "./TawkToChat";
+import { Analytics } from "@vercel/analytics/react"
 
 
 const About = () => {

@@ -6,6 +6,7 @@ import { BsEnvelope } from "react-icons/bs";
 import { LuQuote } from "react-icons/lu";
 import { IoCallOutline } from "react-icons/io5";
 import Image from 'next/image'
+import { Analytics } from "@vercel/analytics/react"
 
 const Header = () => {
   const [isOpen, setIsOpen] = useState(false);

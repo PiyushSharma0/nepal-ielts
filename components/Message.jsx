@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import Image from 'next/image';
 import { FaPlay, FaTimes } from 'react-icons/fa';
 import YouTube from 'react-youtube';
+import { Analytics } from "@vercel/analytics/react"
 
 const Message = () => {
   const [isVideoOpen, setIsVideoOpen] = useState(false);
