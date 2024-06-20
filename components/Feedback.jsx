@@ -2,6 +2,7 @@ import React from "react";
 import Image from 'next/image'
 import { Analytics } from "@vercel/analytics/react"
 
+
 const Feedback = () => {
   return (
     <section className="bg-white py-12 text-center">
