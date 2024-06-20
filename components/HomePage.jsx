@@ -3,6 +3,7 @@ import Link from "next/link";
 import { FaPlayCircle } from "react-icons/fa";
 import { MdKeyboardDoubleArrowRight } from "react-icons/md";
 import { FcGoogle } from "react-icons/fc";
+import { Analytics } from "@vercel/analytics/react"
 
 const HomePage = () => {
   return (

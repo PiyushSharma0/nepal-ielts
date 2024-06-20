@@ -3,7 +3,7 @@ import { MdEmail } from "react-icons/md";
 import { IoCall } from "react-icons/io5";
 import { SlSocialInstagram } from "react-icons/sl";
 import Image from 'next/image'
-
+import { Analytics } from "@vercel/analytics/react"
 
 import Link from "next/link";
 

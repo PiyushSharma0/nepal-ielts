@@ -1,5 +1,6 @@
 import React from "react";
 import Image from "next/image";
+import { Analytics } from "@vercel/analytics/react"
 
 import { MdKeyboardDoubleArrowRight } from "react-icons/md";
 

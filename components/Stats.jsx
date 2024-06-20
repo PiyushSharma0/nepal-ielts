@@ -2,6 +2,7 @@ import React from "react";
 import { FaArrowTrendUp } from "react-icons/fa6";
 import { useEffect, useState } from "react";
 import CountUp from "react-countup";
+import { Analytics } from "@vercel/analytics/react"
 
 const Stats = () => {
   const [startCounting, setStartCounting] = useState(false);
