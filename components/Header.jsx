@@ -5,8 +5,8 @@ import { GoHome, GoInfo } from "react-icons/go";
 import { BsEnvelope } from "react-icons/bs";
 import { LuQuote } from "react-icons/lu";
 import { IoCallOutline } from "react-icons/io5";
-import Image from 'next/image'
-import { Analytics } from "@vercel/analytics/react"
+import Image from "next/image";
+import Head from "next/head";
 
 const Header = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -16,90 +16,108 @@ const Header = () => {
   };
 
   return (
-    <header className="w-full bg-[#E6F0FF] px-4 flex items-center justify-between lg:justify-evenly">
-      <div className="flex items-center -inset-32">
-        <Image src="/logo.png" alt="logo" height={96} width={192} className="w-32 md:w-64 m-0 p-0" />
-        {/* <Image src="/OCN.png" alt="logo" height={96} width={96} className="w-24 md:w-48 m-0 p-0" /> */}
-        
-      </div>
-      <nav className="hidden lg:flex space-x-8 text-gray-600 text-lg font-semibold">
-        <Link href="#home">Home</Link>
-        <Link href="#about">About Us</Link>
-        <Link href="#message">Message From The CEO</Link>
-        <Link href="#testimonials">Testimonials</Link>
-        <Link
-          href="#contact"
-          className="bg-[#1273EB] text-white px-4 py-2 -mt-2 rounded-lg font-semibold hover:bg-blue-700 transition duration-300"
-        >
-          Contact Us
-        </Link>
-      </nav>
-      <div className="lg:hidden">
-        <button onClick={toggleSidebar} className="text-2xl text-gray-600">
-          <FaBars />
-        </button>
-      </div>
-      {isOpen && (
-        <div className="fixed inset-0 bg-black bg-opacity-40 z-50 lg:hidden">
-          <div className="fixed top-0 right-0 w-5/6 bg-white h-full z-50 shadow-lg">
-            <div className="flex items-center justify-between p-4">
-              <div className="flex items-center">
-                <Image src="/logo.png" alt="logo" width={360} height={180} className="w-48 m-0 p-0" />
-                {/* <Image src="OPN.png" alt="logo" className="w-32 m-0 p-0" /> */}
-              </div>
-              <button
-                onClick={toggleSidebar}
-                className="text-2xl text-gray-600"
-              >
-                <FaTimes />
-              </button>
-            </div>
-            <nav className="flex flex-col space-y-6 mt-8 text-gray-600 text-lg font-semibold px-4">
-              <Link
-                href="#home"
-                className="flex items-center space-x-2"
-                onClick={toggleSidebar}
-              >
-                <GoHome className="text-2xl" />
-                <span>Home</span>
-              </Link>
-              <Link
-                href="#about"
-                className="flex items-center space-x-2"
-                onClick={toggleSidebar}
-              >
-                <GoInfo className="text-2xl" />
-                <span>About Us</span>
-              </Link>
-              <Link
-                href="#message"
-                className="flex items-center space-x-2"
-                onClick={toggleSidebar}
-              >
-                <BsEnvelope className="text-2xl" />
-                <span>Message From The CEO</span>
-              </Link>
-              <Link
-                href="#testimonials"
-                className="flex items-center space-x-2"
-                onClick={toggleSidebar}
-              >
-                <LuQuote className="text-2xl" />
-                <span>Testimonials</span>
-              </Link>
-              <Link
-                href="#contact"
-                className="flex items-center space-x-2"
-                onClick={toggleSidebar}
-              >
-                <IoCallOutline className="text-2xl" />
-                <span>Contact Us</span>
-              </Link>
-            </nav>
-          </div>
+    <>
+      <Head>
+        <title>Online IELTS & PTE Courses | Learn English Online</title>
+        <meta
+          name="description"
+          content="Join Online IELTS & PTE Courses at Online Class Nepal. Expert tutors, personalized feedback, and proven strategies to achieve your language goals."
+        />
+      </Head>
+      <header className="w-full bg-[#E6F0FF] px-4 flex items-center justify-between lg:justify-evenly">
+        <div className="flex items-center">
+          <Image
+            src="/logo.png"
+            alt="Online Class Nepal Logo"
+            height={96}
+            width={192}
+            className="w-32 md:w-64 m-0 p-0"
+          />
         </div>
-      )}
-    </header>
+        <nav className="hidden lg:flex space-x-8 text-gray-600 text-lg font-semibold">
+          <Link href="#home">Home</Link>
+          <Link href="#about">About Us</Link>
+          <Link href="#message">Message From The CEO</Link>
+          <Link href="#testimonials">Testimonials</Link>
+          <Link
+            href="#contact"
+            className="bg-[#1273EB] text-white px-4 py-2 -mt-2 rounded-lg font-semibold hover:bg-blue-700 transition duration-300"
+          >
+            Contact Us
+          </Link>
+        </nav>
+        <div className="lg:hidden">
+          <button onClick={toggleSidebar} className="text-2xl text-gray-600">
+            <FaBars />
+          </button>
+        </div>
+        {isOpen && (
+          <div className="fixed inset-0 bg-black bg-opacity-40 z-50 lg:hidden">
+            <div className="fixed top-0 right-0 w-5/6 bg-white h-full z-50 shadow-lg">
+              <div className="flex items-center justify-between p-4">
+                <div className="flex items-center">
+                  <Image
+                    src="/logo.png"
+                    alt="Online Class Nepal Logo"
+                    width={360}
+                    height={180}
+                    className="w-48 m-0 p-0"
+                  />
+                </div>
+                <button
+                  onClick={toggleSidebar}
+                  className="text-2xl text-gray-600"
+                >
+                  <FaTimes />
+                </button>
+              </div>
+              <nav className="flex flex-col space-y-6 mt-8 text-gray-600 text-lg font-semibold px-4">
+                <Link
+                  href="#home"
+                  className="flex items-center space-x-2"
+                  onClick={toggleSidebar}
+                >
+                  <GoHome className="text-2xl" />
+                  <span>Home</span>
+                </Link>
+                <Link
+                  href="#about"
+                  className="flex items-center space-x-2"
+                  onClick={toggleSidebar}
+                >
+                  <GoInfo className="text-2xl" />
+                  <span>About Us</span>
+                </Link>
+                <Link
+                  href="#message"
+                  className="flex items-center space-x-2"
+                  onClick={toggleSidebar}
+                >
+                  <BsEnvelope className="text-2xl" />
+                  <span>Message From The CEO</span>
+                </Link>
+                <Link
+                  href="#testimonials"
+                  className="flex items-center space-x-2"
+                  onClick={toggleSidebar}
+                >
+                  <LuQuote className="text-2xl" />
+                  <span>Testimonials</span>
+                </Link>
+                <Link
+                  href="#contact"
+                  className="flex items-center space-x-2"
+                  onClick={toggleSidebar}
+                >
+                  <IoCallOutline className="text-2xl" />
+                  <span>Contact Us</span>
+                </Link>
+              </nav>
+            </div>
+          </div>
+        )}
+      </header>
+    </>
   );
 };
 

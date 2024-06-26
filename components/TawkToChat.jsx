@@ -1,14 +1,13 @@
-// TawkToChat.jsx
-import { Analytics } from "@vercel/analytics/react"
-
-
 import React from 'react';
 import Head from 'next/head';
 
 const TawkToChat = () => (
   <Head>
+    <title>Live Chat Support - Online Class Nepal</title>
+    <meta name="description" content="Live chat support for Online Class Nepal powered by Tawk.to" />
     <script
       type="text/javascript"
+      async
       dangerouslySetInnerHTML={{
         __html: `
           var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();

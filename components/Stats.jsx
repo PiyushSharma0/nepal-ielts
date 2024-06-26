@@ -1,8 +1,6 @@
-import React from "react";
-import { FaArrowTrendUp } from "react-icons/fa6";
-import { useEffect, useState } from "react";
+import React, { useEffect, useState } from "react";
+import { FaArrowTrendUp } from "react-icons/fa";
 import CountUp from "react-countup";
-import { Analytics } from "@vercel/analytics/react"
 
 const Stats = () => {
   const [startCounting, setStartCounting] = useState(false);
@@ -19,10 +17,10 @@ const Stats = () => {
           OUR IMPACTS IN NUMBERS
         </h1>
         <p className="text-lg text-gray-400 px-3">
-        Our Results, Proven by the Numbers
+          Our Results, Proven by the Numbers
         </p>
       </div>
-      <div className="grid grid-cols-2 justify-center items-center lg:grid-cols-4 gap-8 mx-auto my-auto px-4 max-w-6xl">
+      <div className="grid grid-cols-2 justify-center items-center lg:grid-cols-4 gap-8 mx-auto max-w-6xl">
         <div className="bg-white p-8 rounded shadow text-center">
           <h2 className="text-3xl md:text-4xl font-semibold md:font-bold text-[#1273EB] mb-2 py-[10px] md:py-4">
             {startCounting && <CountUp start={0} end={1000} duration={2} />}+
