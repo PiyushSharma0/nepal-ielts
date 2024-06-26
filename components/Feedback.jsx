@@ -1,7 +1,6 @@
 import React from "react";
-import Image from 'next/image'
-import { Analytics } from "@vercel/analytics/react"
-
+import Image from 'next/image';
+import { Analytics } from "@vercel/analytics/react";
 
 const Feedback = () => {
   return (
@@ -35,15 +34,13 @@ const Feedback = () => {
             STAY UPDATED
           </h3>
           <div className="flex justify-center gap-2 mb-2">
-            <div className="flex items-center"> {/* Add this wrapper */}
+            <div className="flex items-center">
               <img src="/instagram-1-svgrepo-com.svg" alt="Instagram" width="24" height="24" />
-              <p className="text-md mb-0 text-black"> &nbsp;onlineieltsptenepal</p> {/* Remove margin-bottom here */}
+              <p className="text-md mb-0 text-black"> &nbsp;onlineieltsptenepal</p>
             </div>
           </div>
           
           <div className="grid grid-cols-2 gap-6 justify-center md:grid-cols-4">
-
-            {/* Image 1 */}
             <div className="flex justify-center">
               <Image
                 src="/img1.png"
@@ -53,7 +50,6 @@ const Feedback = () => {
                 className="w-full max-w-xs shadow-lg rounded-lg transition-transform duration-200 ease-in transform hover:scale-110"
               />
             </div>
-            {/* Image 2 */}
             <div className="flex justify-center">
               <Image
                 src="/img2.png"
@@ -63,7 +59,6 @@ const Feedback = () => {
                 className="w-full max-w-xs shadow-lg rounded-lg transition-transform duration-200 ease-in transform hover:scale-110"
               />
             </div>
-            {/* Image 3 */}
             <div className="flex justify-center">
               <Image
                 src="/img3.png"
@@ -73,7 +68,6 @@ const Feedback = () => {
                 className="w-full max-w-xs shadow-lg rounded-lg transition-transform duration-200 ease-in transform hover:scale-110"
               />
             </div>
-            {/* Image 4 */}
             <div className="flex justify-center">
               <Image
                 src="/img4.png"
