@@ -1,9 +1,9 @@
-import React, { useState, useEffect } from "react";
-import Slider from "react-slick";
-import Image from "next/image";
-import "slick-carousel/slick/slick.css";
-import "slick-carousel/slick/slick-theme.css";
-import { Analytics } from "@vercel/analytics/react"
+import React from 'react';
+import Head from 'next/head';
+import Slider from 'react-slick';
+import Image from 'next/image';
+import 'slick-carousel/slick/slick.css';
+import 'slick-carousel/slick/slick-theme.css';
 
 const testimonials = [
   {
@@ -34,7 +34,7 @@ const testimonials = [
 ];
 
 const Testimonials = () => {
-  const [currentIndex, setCurrentIndex] = useState(0);
+  const [currentIndex, setCurrentIndex] = React.useState(0);
 
   const settings = {
     dots: false,
@@ -61,88 +61,96 @@ const Testimonials = () => {
   };
 
   return (
-    <section className="bg-[#E6F0FF] py-12 h-[560px]">
-      <div className="container mx-auto px-4">
-        <h2 className="text-3xl font-semibold text-center mb-8 text-black ">
-          Testimonials
-        </h2>
-        <Slider {...settings}>
-  {testimonials.map((testimonial, index) => (
-    <div key={index} className="text-justify px-8 md:px-24">
-      <div className="relative mb-4 text-xl md:text-2xl">
-        <span className="absolute -left-2 -top-2 text-blue-500 text-4xl md:text-8xl">
-          ❝
-        </span>
-        <p className="inline-block text-sm md:text-[18px] lg:text-3xl mx-6 md:mx-20 text-black">{testimonial.text}</p>
-        <span className="absolute right-0 -bottom-3 text-blue-500 text-4xl md:text-8xl">
-          ❞
-        </span>
-      </div>
-    </div>
-  ))}
-</Slider>
-
-
-        <div className="flex justify-center items-center gap-3 -mt-2 lg:mt-4 space-x-2">
-          <div className="relative w-16 h-16">
-            <Image
-              src={getTestimonialImage(-2)}
-              alt={getTestimonialName(-2)}
-              width={64}
-              height={64}
-              className="rounded-full"
-            />
-          </div>
-          <div className="relative w-24 h-24">
-            <Image
-              src={getTestimonialImage(-1)}
-              alt={getTestimonialName(-1)}
-              width={96}
-              height={96}
-              className="rounded-full"
-            />
-          </div>
-          <div className="relative w-32 h-32">
-            <Image
-              src={getTestimonialImage(0)}
-              alt={getTestimonialName(0)}
-              width={128}
-              height={128}
-              className="rounded-full p-2"
-            />
-            <div
-              className="absolute hidden md:block inset-0 rounded-full border-4 border-[#1273EB]"
-              style={{
-                clipPath:
-                  "polygon(50% 100%, 0% 100%, 0% 0%, 100% 0%, 100% 60%, 50% 50%)",
-                padding: "8px",
-              }}
-            />
-            <div className="relative inset-x-0 bottom-0 text-center md:my-4">
-              <p className="font-semibold text-[13px] md:text-lg text-[#1E1F4B]">{getTestimonialName(0)}</p>
+    <>
+      <Head>
+        <title>Student Testimonials - Online Class Nepal</title>
+        <meta name="description" content="Read what our students say about their experience with Online Class Nepal and how it helped them achieve success in the IELTS exam." />
+      </Head>
+      <section className="bg-[#E6F0FF] py-12">
+        <div className="container mx-auto px-4">
+          <h2 className="text-3xl font-semibold text-center mb-8 text-black">
+            Testimonials
+          </h2>
+          <Slider {...settings}>
+            {testimonials.map((testimonial, index) => (
+              <div key={index} className="text-justify px-8 md:px-24">
+                <div className="relative mb-4 text-xl md:text-2xl">
+                  <span className="absolute -left-2 -top-2 text-blue-500 text-4xl md:text-8xl">
+                    ❝
+                  </span>
+                  <p className="inline-block text-sm md:text-[18px] lg:text-3xl mx-6 md:mx-20 text-black">
+                    {testimonial.text}
+                  </p>
+                  <span className="absolute right-0 -bottom-3 text-blue-500 text-4xl md:text-8xl">
+                    ❞
+                  </span>
+                </div>
+              </div>
+            ))}
+          </Slider>
+          <div className="flex justify-center items-center gap-3 -mt-2 lg:mt-4 space-x-2">
+            <div className="relative w-16 h-16">
+              <Image
+                src={getTestimonialImage(-2)}
+                alt={getTestimonialName(-2)}
+                width={64}
+                height={64}
+                className="rounded-full"
+              />
+            </div>
+            <div className="relative w-24 h-24">
+              <Image
+                src={getTestimonialImage(-1)}
+                alt={getTestimonialName(-1)}
+                width={96}
+                height={96}
+                className="rounded-full"
+              />
+            </div>
+            <div className="relative w-32 h-32">
+              <Image
+                src={getTestimonialImage(0)}
+                alt={getTestimonialName(0)}
+                width={128}
+                height={128}
+                className="rounded-full p-2"
+              />
+              <div
+                className="absolute hidden md:block inset-0 rounded-full border-4 border-[#1273EB]"
+                style={{
+                  clipPath:
+                    "polygon(50% 100%, 0% 100%, 0% 0%, 100% 0%, 100% 60%, 50% 50%)",
+                  padding: "8px",
+                }}
+              />
+              <div className="relative inset-x-0 bottom-0 text-center md:my-4">
+                <p className="font-semibold text-[13px] md:text-lg text-[#1E1F4B]">
+                  {getTestimonialName(0)}
+                </p>
+              </div>
+            </div>
+            <div className="relative w-24 h-24">
+              <Image
+                src={getTestimonialImage(1)}
+                alt={getTestimonialName(1)}
+                width={96}
+                height={96}
+                className="rounded-full"
+              />
+            </div>
+            <div className="relative w-16 h-16">
+              <Image
+                src={getTestimonialImage(2)}
+                alt={getTestimonialName(2)}
+                width={64}
+                height={64}
+                className="rounded-full"
+              />
             </div>
           </div>
-          <div className="relative w-24 h-24">
-            <Image
-              src={getTestimonialImage(1)}
-              alt={getTestimonialName(1)}
-              width={96}
-              height={96}
-              className="rounded-full"
-            />
-          </div>
-          <div className="relative w-16 h-16">
-            <Image
-              src={getTestimonialImage(2)}
-              alt={getTestimonialName(2)}
-              width={64}
-              height={64}
-              className="rounded-full"
-            />
-          </div>
         </div>
-      </div>
-    </section>
+      </section>
+    </>
   );
 };
 

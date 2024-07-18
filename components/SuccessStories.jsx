@@ -3,51 +3,44 @@ import Slider from 'react-slick';
 import Image from 'next/image';
 import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
-import { Analytics } from "@vercel/analytics/react"
 
-const NextArrow = (props) => {
-  const { onClick } = props;
-  return (
-    <div
-      className="absolute top-1/2 -right-2 transform -translate-y-1/2 p-2 bg-white rounded-full shadow cursor-pointer z-10 border border-[#1273EB]"
-      onClick={onClick}
+const NextArrow = ({ onClick }) => (
+  <div
+    className="absolute top-1/2 -right-2 transform -translate-y-1/2 p-2 bg-white rounded-full shadow cursor-pointer z-10 border border-[#1273EB]"
+    onClick={onClick}
+  >
+    <svg
+      className="w-6 h-6 text-[#1273EB]"
+      fill="none"
+      stroke="#1273EB"
+      viewBox="0 0 24 24"
+      xmlns="http://www.w3.org/2000/svg"
     >
-      <svg
-        className="w-6 h-6 text-[#1273EB]"
-        fill="none"
-        stroke="#1273EB"
-        viewBox="0 0 24 24"
-        xmlns="http://www.w3.org/2000/svg"
-      >
-        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M9 5l7 7-7 7"></path>
-      </svg>
-    </div>
-  );
-};
+      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M9 5l7 7-7 7"></path>
+    </svg>
+  </div>
+);
 
-const PrevArrow = (props) => {
-  const { onClick } = props;
-  return (
-    <div
-      className="absolute top-1/2 -left-2 transform -translate-y-1/2 p-2 bg-white rounded-full shadow cursor-pointer z-10 border border-[#1273EB]"
-      onClick={onClick}
+const PrevArrow = ({ onClick }) => (
+  <div
+    className="absolute top-1/2 -left-2 transform -translate-y-1/2 p-2 bg-white rounded-full shadow cursor-pointer z-10 border border-[#1273EB]"
+    onClick={onClick}
+  >
+    <svg
+      className="w-6 h-6 text-[#1273EB]"
+      fill="none"
+      stroke="#1273EB"
+      viewBox="0 0 24 24"
+      xmlns="http://www.w3.org/2000/svg"
     >
-      <svg
-        className="w-6 h-6 text-[#1273EB]"
-        fill="none"
-        stroke="#1273EB"
-        viewBox="0 0 24 24"
-        xmlns="http://www.w3.org/2000/svg"
-      >
-        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M15 19l-7-7 7-7"></path>
-      </svg>
-    </div>
-  );
-};
+      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M15 19l-7-7 7-7"></path>
+    </svg>
+  </div>
+);
 
 const SuccessStories = () => {
   const settings = {
-    dots: false,  // Remove dots
+    dots: false,
     infinite: true,
     speed: 500,
     slidesToShow: 4,
@@ -63,7 +56,7 @@ const SuccessStories = () => {
           slidesToShow: 3,
           slidesToScroll: 1,
           infinite: true,
-          dots: false,  // Remove dots
+          dots: false,
           nextArrow: <NextArrow />,
           prevArrow: <PrevArrow />,
         }
