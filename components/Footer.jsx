@@ -8,6 +8,8 @@ import { SlSocialInstagram } from "react-icons/sl";
 import Link from "next/link";
 
 const Footer = () => {
+  const currentYear = new Date().getFullYear();
+
   return (
     <>
       <Head>
@@ -104,7 +106,18 @@ const Footer = () => {
               </Link>
             </div>
             <p className="text-gray-400 text-xs md:text-sm">
-              Copyright © 2024 Online Class Nepal. All Rights Reserved.
+              © {currentYear} Online Class Nepal. All Rights Reserved.
+            </p>
+
+            <p className="text-gray-400 text-xs md:text-sm">
+              Crafted with passion in Nepal 🇳🇵 with ❤️ by{" "}
+              <a
+                href="https://abhishekkandel.com.np"
+                target="_blank"
+                className="text-blue-600 hover:text-red-600"
+              >
+                Kandel Technology Pvt. Ltd.
+              </a>
             </p>
           </div>
         </div>
