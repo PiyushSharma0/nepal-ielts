@@ -110,15 +110,16 @@ const Footer = () => {
             </p>
 
             <p className="text-gray-400 text-xs md:text-sm">
-              Crafted with passion in Nepal 🇳🇵 with ❤️ by{" "}
+              Proudly forged in the heart of Nepal 🇳🇵 | Where innovation meets Himalayan spirit | Crafted with unwavering passion and national pride by{" "}
               <a
                 href="https://abhishekkandel.com.np"
                 target="_blank"
                 className="text-blue-600 hover:text-red-600"
               >
-                Kandel Technology Pvt. Ltd.
+                Kandel Technology Pvt. Ltd. 🚀❤️
               </a>
             </p>
+
           </div>
         </div>
       </footer>
