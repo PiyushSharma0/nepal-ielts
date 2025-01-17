@@ -93,7 +93,7 @@ const Footer = () => {
                 <FaFacebook className="lg:text-5xl sm:text-3xl text-2xl text-blue-600 hover:text-red-600 hover:cursor-pointer" />
               </Link>
               <Link
-                href="https://www.instagram.com/onlineptenepal/"
+                href="https://www.instagram.com/onlineieltsptenepal/"
                 target="_blank"
               >
                 <SlSocialInstagram className="lg:text-5xl sm:text-3xl text-2xl bg-white text-blue-600 hover:text-red-600 hover:cursor-pointer" />
