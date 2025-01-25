@@ -36,7 +36,7 @@ const HomePage = () => {
                 <MdKeyboardDoubleArrowRight className="text-2xl ml-2" />
               </Link>
               <Link
-                href="/watch"
+                href="https://youtu.be/X9mYTkW0uyc?si=N2MopIfwQ6y37Qvm"
                 className="flex items-center text-[#1273EB] justify-center md:justify-start"
               >
                 <FaPlayCircle className="text-2xl mr-2" />
