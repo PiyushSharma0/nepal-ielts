@@ -116,7 +116,7 @@ const Footer = () => {
                 target="_blank"
                 className="text-blue-600 hover:text-red-600"
               >
-                Kandel Technology Pvt. Ltd. 🚀❤️
+                Verastix Technology Pvt. Ltd. 🚀❤️
               </a>
             </p>
 
