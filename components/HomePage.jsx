@@ -44,7 +44,7 @@ const HomePage = () => {
               </Link>
             </div>
           </div>
-          <div className="md:w-1/2 flex flex-col items-center relative md:hidden">
+          <div className="md:w-1/2 flex flex-col items-center relative md:hidden"> 
             <Image
               src="/girl1.png"
               alt="Student Image"
